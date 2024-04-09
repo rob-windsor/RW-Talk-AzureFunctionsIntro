@@ -31,23 +31,6 @@ namespace AzureFunctionsClient
             }
         }
 
-        static async Task NorthwindGetRequest()
-        {
-            using (var client = new HttpClient())
-            {
-                client.DefaultRequestHeaders.Add("Accept", "application/json");
-
-                var endpoint = $"https://services.odata.org/northwind/northwind.svc/Customers";
-                using (var response = await client.GetAsync(endpoint))
-                {
-                    response.EnsureSuccessStatusCode();
-
-                    var jsonResponse = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine(jsonResponse);
-                }
-            }
-        }
-
         private async static Task<string> GetAccessToken()
         {
             var tenantName = "robwindsor2";
