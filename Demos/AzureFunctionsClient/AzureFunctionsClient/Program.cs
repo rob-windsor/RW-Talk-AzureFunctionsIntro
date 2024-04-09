@@ -51,8 +51,8 @@ namespace AzureFunctionsClient
         private async static Task<string> GetAccessToken()
         {
             var tenantName = "robwindsor2";
-            var clientId = "8e86ae2f-a516-474f-ba0c-fb9101332a0e";
-            var clientSecret = "r2H8Q~57o4e_MEqpMP-ayEbV61SXU7QgMJbFrcUF";
+            var clientId = "...";
+            var clientSecret = "...";
             var authority = $"https://login.microsoftonline.com/{tenantName}.onmicrosoft.com/";
             var azureApp = ConfidentialClientApplicationBuilder.Create(clientId)
                 .WithAuthority(authority)
