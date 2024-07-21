@@ -5,9 +5,6 @@
 .vs/
 AzureFunctionVSCS001/.vs/
 
-# Azure Functions localsettings file
-local.settings.json
-
 # User-specific files
 *.suo
 *.user
