@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Microsoft Office lock files
+~$*
+
+# Visual Studio
+.vs/
+
+# Azure Functions local settings (contains connection strings and secrets)
+**/local.settings.json
+
+# Azurite local storage emulator data
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+AzuriteConfig/
