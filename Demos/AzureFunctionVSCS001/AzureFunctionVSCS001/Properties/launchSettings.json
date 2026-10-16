@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "AzureFunctionVSCS001": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7269",
-      "launchBrowser": false
-    }
-  }
-}
